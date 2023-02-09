@@ -1,2 +1,2 @@
 # Python_Tutorial
- My note in Python language
+ My note about Python language

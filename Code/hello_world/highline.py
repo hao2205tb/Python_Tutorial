@@ -1,7 +1,3 @@
-org = "Yooh! Good school!"
+str1 = str(234.5)
+print(type(str1), str1)
 
-# đếm số lần xuất hiện oo
-print(org.count("oo"))
-
-# đếm số lần xuất hiện oo trong khoảng [0, 14)
-print(org.count("oo", 0, 14))

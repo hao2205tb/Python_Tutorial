@@ -1,12 +1,9 @@
-s1 = 'abcde'
-s2 = 'cde'
-s3 = 'abcdef'
+print("Hi! %s" % "LyLy")
+#>> Hi! LyLy
 
-print( set(s1) ^ set(s2) )
-#>> {'b', 'a'}
+print("Tên tôi là %-8s , tuổi là %03d" % ("Kiyoshi",30))
+#>> Tên tôi là Kiyoshi  , tuổi là 030
 
-print( set(s1) ^ set(s3) )
-#>> {'f'}
+print('Tôi là %(key1)s, năm nay %(key2)d' % {'key1':'hao','key2':20})
+#>> Tôi yêu Trang và ghét Đào
 
-print(type(set(s1) ^ set(s3)))
-#>> <class 'set'>

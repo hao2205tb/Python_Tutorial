@@ -1,9 +1,12 @@
-list1 = [0, 2, 3, 1, 2, 4, 6, 4]
-list1.sort()
-print(list1)
-#>> [0, 1, 2, 2, 3, 4, 4, 6]
+l = [0, 1, 3]
+l.extend([1, 2])
+print(l)
+#>> [0, 1, 3, 1]
 
-list1.sort(reverse=True)
-print(sorted(list1, reverse=True))
-#>> [6, 4, 4, 3, 2, 2, 1, 0]
+l.extend("abc")
+print(l)
+#>> [0, 1, 3, 1, 'abc']
 
+l.append((1, 2))
+print(l)
+#>> [0, 1, 3, 1, 'abc', (1, 2)]

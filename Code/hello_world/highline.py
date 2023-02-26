@@ -1,12 +1,7 @@
-l = [0, 1, 3]
-l.extend([1, 2])
-print(l)
-#>> [0, 1, 3, 1]
+dict = {'red':1, 'blue':2, 'yellow':3}
+print(dict)
+#>> {'red': 1, 'blue': 2}
 
-l.extend("abc")
-print(l)
-#>> [0, 1, 3, 1, 'abc']
-
-l.append((1, 2))
-print(l)
-#>> [0, 1, 3, 1, 'abc', (1, 2)]
+popped = dict.popitem()
+print(popped)
+#>> ('yellow', 3)
